@@ -15,3 +15,11 @@ dependencies:
   - matplotlib
   - pandas
 prefix: /opt/anaconda3/envs/my-llm
+
+to install the environment, when you are in the repo, run: conda env create -f my-llm-environment.yml
+
+# After installing new packages, you can update the environment.yml file with the following command:
+# This will only include the packages you explicitly installed, not all dependencies. 
+conda env export --from-history > my-llm-environment.yml
+git add environment.yml
+git commit -m "Update environment dependencies"
