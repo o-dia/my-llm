@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/opt/anaconda3/envs/my-llm/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.condaPath": "/opt/anaconda3/bin/conda",
+    "terminal.integrated.inheritEnv": true
+}
