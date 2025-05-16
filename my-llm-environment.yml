@@ -1,0 +1,17 @@
+name: my-llm
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchaudio
+  - torchvision
+  - datasets
+  - transformers
+  - jupyter
+  - matplotlib
+  - pandas
+prefix: /opt/anaconda3/envs/my-llm
